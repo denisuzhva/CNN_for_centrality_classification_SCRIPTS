@@ -1,0 +1,19 @@
+def plot2dHist():
+    mat_sum_max = 25
+    spec_num_max = 9
+    x_arrange_hor = np.arange(0, spec_num_max, 0.01)
+    y_arrange_hor = np.full(100*spec_num_max, mat_sum_bound)
+    x_arrange_ver = np.full(100*mat_sum_max, spec_num_bound)
+    y_arrange_ver = np.arange(0, mat_sum_max, 0.01)
+    #plt.plot(spec_num, mat_sum, 'k.', markersize=0.8)
+    binx = np.arange(10) - 0.5
+    binx = binx.tolist()
+    biny = np.arange(250) / 2
+    biny = biny.tolist()
+    plt.hist2d(spec_num, mat_sum, bins=[binx, biny], norm=LogNorm(), cmap='inferno')
+    plt.colorbar()
+    plt.plot(x_arrange_hor, y_arrange_hor)
+    plt.plot(x_arrange_ver, y_arrange_ver)
+    plt.xlabel('Number of spectators')
+    plt.ylabel('Measured energy')
+    plt.axis([0, spec_num_max, 0, mat_sum_max])

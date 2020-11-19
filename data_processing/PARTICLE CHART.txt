@@ -1,0 +1,52 @@
+## Particle ids, "!" means "added to dictionary" (it is inside other scripts in fact)
+
+
+# p, n
+2212	p	!
+2112	n	!
+-2212	anti-p	!
+-2112	anti-n	!
+
+
+# nuclei
+1000010020	Deu	!
+1000010030	Tri	!
+1000020030	3He	!
+1000020040	4He	!
+1000020060	6He	!
+1000030060	6Li	!
+1000030070	7Li	!
+1000030080	8Li	!
+1000040070	7Be	!
+
+
+# mesons
+111		pi0	!
+211		pi+	!
+-211	pi-	!
+311		K0	!
+130     K0L !
+310     K0S !
+-311	anti-K0	!
+321		K+	!
+-321	K-	!
+
+
+# baryons
+3112    Sigma- !
+-3112   anti-Sigma- !
+3122    Lambda !
+3312    Eta- !
+-3312   anti-Eta- !
+3322    Eta0 !
+-3322   anti-Eta0 !
+3334    Omega- !
+
+
+# other
+22	    photon	!
+
+
+# leptons
+11      e- !
+-11     anti-e- !
