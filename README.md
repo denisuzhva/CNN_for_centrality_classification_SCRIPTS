@@ -16,8 +16,10 @@ About NA61: http://shine.web.cern.ch, http://luhep.spbu.ru/na61-shine/ (ru), htt
 
 Unfortunately, both the data and the trained models are classified.
 The structure of the datasets is, however, free and is provided in terms of numpy shapes: 
+
 1. (N, 2) &ndash; labels of N samples (one-hot encoded for binary classification);
 2. (N, 4, 4, 10, 1) &ndash; features of N samples with dimensionality 4x4x10 and a single "color" channel;
+
 Note that you need two 4x4x10 tensors of features for a single sample: in the NA61/SHINE, the first one corresponts to the central section of the detector, while the latter contains data from the peripheral section.
 
 ### TF version
