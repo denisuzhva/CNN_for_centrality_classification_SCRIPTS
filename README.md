@@ -32,6 +32,14 @@ The scripts were run with tensorflow 1.9 and are not optimized for tf 2.x
 2. NumPy
 3. Matplotlib (for data visualization scripts)
 
+### Main scripts
+
+1. `neural_net/M_Trainer.py` main file for training
+2. `neural_net/M_Tester.py` for testing
+3. `neural_net/M_CrossTester.py` for cross-validation
+4. `neural_net/M_Models.py` CNN model
+5. `neural_net/M_Util.py` utility functions
+
 ##
 
 Feel free to make code reviews! I would be very glad to receive your feedback.
