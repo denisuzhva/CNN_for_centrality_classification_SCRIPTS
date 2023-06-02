@@ -1,5 +1,7 @@
 # Convolutional neural network for centrality analysis
 
+A classificator for the NA61/SHINE CERN experiment
+
 ## Conv nets for NA61/SHINE
 
 NA61/SHINE experiment in CERN researches the strong fundamental interaction, specifically quark-gluon plasma to hadron matter phase transition. 
@@ -24,7 +26,7 @@ Note that you need two 4x4x10 tensors of features for a single sample: in the NA
 
 ### TF version
 
-The scripts were run with tensorflow 1.9 and are not optimized for tf 2.x
+The scripts were tuned for tensorflow 1.9 and are not optimized for tf 2.x
 
 ### Dependencies
 
